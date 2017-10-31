@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.6" name="app">
+    <main-class name="sample_java_serviceloaderdemo.ServiceLoaderDemo"/>
+    <resources>
+        <resource-root path="main.jar"/>
+    </resources>
+    <dependencies>
+        <!--
+		<module name="hello"/> 
+		-->
+		  <module name="hello" export="true" services="import">
+			  
+
+		  </module>
+    </dependencies>
+</module>

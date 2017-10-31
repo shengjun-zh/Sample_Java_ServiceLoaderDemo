@@ -1,0 +1,1 @@
+java -jar jboss-modules-1.6.1.Final.jar -mp mods app
